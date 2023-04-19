@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>Registration</title>
+  <link href="rd1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="title">
+  <h1 align="center" class="heading">REGISTRATION FORM</font></h1>
+  </div>
+  <div class="forms">
+  <form name="f1" action="valid.php" method="post">
+    <table border=1 cellspacing=0 cellpadding="17px" align="center" width=750 height=500 >
+      <tr>
+        <td><label for="username">NAME:</label></td>
+        <td><input type="text" placeholder="Enter username" name="un" value="" required></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email ID:</label></td>
+        <td><input type="email" placeholder="Enter email" name="e" value="" required></td>
+      </tr>
+      <tr>
+        <td><label for="number">PHONE:</label></td>
+        <td><input type="text" placeholder="Enter phone number" name="pn" value="" required></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Gender:</label></td>
+        <td><input type="radio" name="r" value="male" required>male
+            <input type="radio" name="r" value="female" required>female
+        </td>
+      </tr>
+      <tr>
+        <td><label for="religion">Religion:</label></td>
+        <td><select name="rel" value="" required>
+          <option value="none" selected disabled hidden>Select an Option</option>
+          <option value="HINDU">HINDU</option>
+          <option value="MUSLIM">MUSLIM</option>
+          <option value="CHRISTIAN">CHRISTIAN</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><label for="DOB">DOB:</label></td>
+        <td><input type="date" name="dob" required></td>
+      </tr>
+      <tr>
+        <td><label for="Languages">Languages:</label></td>
+        <td><input type="checkbox" name="lang[]" value="TELUGU">TELUGU
+            <input type="checkbox" name="lang[]" value="ENGLISH">ENGLISH
+            <input type="checkbox" name="lang[]" value="HINDI">HINDI
+        </td>
+      </tr>
+      <tr>
+        <td><label for="address">Address:</label></td>
+        <td><textarea rows="3" cols="20" placeholder="Enter address" name="add" value=""></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" name="pas" placeholder="Enter password" value="" required></td>
+      </tr>
+      <tr>
+        <td><label for="password">Confirm Password:</label></td>
+        <td><input type="password" name="cpas" placeholder="Confirm password" required></td>
+      </tr>
+      <tr>
+        <td><input type="submit" id="button" name="submit" value="submit" ></td>
+        <td><input type="reset" id="button1" name="clear" value="clear" ></td>
+      </tr>
+    </table>
+  </form>
+  </div>
+</body>
+
+</html>
+

@@ -1,0 +1,8 @@
+<?php
+           $c = $row[1];
+           $t = mysqli_query($conn,"SELECT msgg from `msg` where url =$c;");
+           while($r3 = mysqli_fetch_array($t))
+             {
+                  echo $r3[0];
+             }
+            ?>
