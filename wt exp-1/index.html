@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title>Restaurant Billing System</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Restaurant Billing System</h1>
+  <ul>
+		<li> Veg Biryani: Rs 180/-</li>
+		<li>Panner Biryani: Rs 250/-</li>
+		<li>Veg Manuchuria: Rs 200/-</li>
+		<li>French fries: Rs 120/-</li>
+    		<li>Coffee: Rs 45/-</li>
+    		<li>Ice Cream: Rs 80/-</li>
+  </ul>
+
+  <form>
+    <label for="item">Item:</label>
+    <select id="item">
+      <option value="0">--Select--</option>
+      <option value="Veg Biryani">Veg Biryani</option>
+      <option value="Panner Biryani">Panner Biryani</option>
+      <option value="Veg Manuchuria">Veg Manuchuria</option>
+      <option value="French fries">French fries</option>
+      <option value="Coffee">Coffee</option>
+      <option value="Ice Cream">Ice Cream</option>
+    </select>
+    <br><br>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1">
+    <br><br>
+    <button type="button" onclick="addItem()">Add Item</button>
+  </form>
+  <br><br>
+  <table id="table" border=1 cellspacing=0 cellpadding=4>
+    <tr>
+      <th>Item</th>
+      <th>Quantity</th>
+      <th>Price</th>
+      <th>Action</th>
+    </tr>
+  </table>
+
+  <br><br>
+  <button type="button" onclick="calculateTotal()">Calculate Total</button>
+  <br><br>
+  <div id="total"></div>
+  <script src="script.js"></script>
+</body>
+</html>

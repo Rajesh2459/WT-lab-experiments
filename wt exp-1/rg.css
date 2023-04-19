@@ -1,0 +1,36 @@
+body
+{
+ margin: 10;
+ font-family:calibri;
+ background-color:lightblue;
+}
+table{
+  color:green;
+  text-align:center;
+}
+.container{
+  display: flex;
+  gap:0.625%;
+  width: 50%;
+
+}
+a{
+  flex:1;
+  text-decoration:none;
+  outline:none;
+  text-align:center;
+  line-height:3;
+  color:black;
+}
+
+ol{
+  background:#ff 9999;
+  padding:20px;
+  width:30%;
+}
+ol li{
+  background: #ff 9999;
+  color:darkred;
+  padding: 5px;
+  margin-left:30px;
+}

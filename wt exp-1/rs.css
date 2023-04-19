@@ -1,0 +1,16 @@
+body{
+    background-color:lightblue;
+}
+h2{
+color:blue;
+text-align:center;
+
+    font-size: 50px;
+    font-style: italic;
+}
+ul{
+    font-style:italic;
+}
+button{
+    font-size: larger;
+}

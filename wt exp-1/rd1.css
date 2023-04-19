@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family:calibri;
+}
+table{
+  color:green
+}
+input,textarea,select{
+  background-color: #7af2f9;
+}
+.title{
+  background-color: lightblue;
+  font-size: 10px;
+  color: blue;
+  width: auto;
+  padding: 50px;
+}
+.forms{
+  background-color: lightblue;
+  width:auto;
+}
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: blue;
+}
