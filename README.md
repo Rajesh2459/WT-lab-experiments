@@ -28,4 +28,9 @@ Welcome to the Mini Facebook project! This is a social media platform where user
 ## Installation
 
 1. Clone the repository:
-   
+   https://github.com/Rajesh2459/WT-lab-experiments/tree/main
+2. Create a MySQL database. Import the provided SQL schema file into your database.
+3. Open the config.php file. Update database connection details.
+4. Start a local server (e.g., using XAMPP, WAMP, or your preferred server). Access the application in your web browser.
+
+## ScreenShots
