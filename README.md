@@ -36,7 +36,6 @@ Welcome to the Mini Facebook project! This is a social media platform where user
 
 ## ScreenShots
 ![Screenshot (50)](https://github.com/Rajesh2459/WT-lab-experiments/assets/131291830/31078da1-a39e-4fa8-b2c5-3a03c16b2bb0)
-![Screenshot (50)](https://github.com/Rajesh2459/WT-lab-experiments/assets/131291830/d0627e1f-e24f-43a9-9f63-9ad96d12c419)
 ![Screenshot (52)](https://github.com/Rajesh2459/WT-lab-experiments/assets/131291830/4b0b6bf7-825e-47e4-ba2f-8f2b861be041)
 ![Screenshot (54)](https://github.com/Rajesh2459/WT-lab-experiments/assets/131291830/0acce14a-d3a3-47f3-b241-097a57173bdd)
 ![Screenshot (53)](https://github.com/Rajesh2459/WT-lab-experiments/assets/131291830/6b46d206-7861-4aec-85d4-bed1b8f2a1ac)
